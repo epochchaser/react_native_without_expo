@@ -76,3 +76,9 @@ react-native init [PROJECT_NAME_HERE]
 cd [PROJECT_NAME_HERE]
 react-native run-android
 ```
+#### 7. Release Settings
+
+```bash
+create [keystore and configuration](https://facebook.github.io/react-native/docs/signed-apk-android.html)
+cd android && ./gradlew assembleRelease
+```
