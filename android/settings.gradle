@@ -1,0 +1,3 @@
+rootProject.name = 'boiler_without_expo'
+
+include ':app'
